@@ -1,0 +1,24 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.1.x                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      probeSurfaceDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+// Fields to be probed. runTime modifiable!
+
+start		(3.14 0 0);
+end		(3.14 1 6.28);
+nPoints_y 	144;
+nPoints_z 	110;
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
